@@ -1,2 +1,2 @@
-age1 = int( input("How old are you? \n") )
-print(f"Your were born in the year: {2026 - age1}")
+duration = int( input("Enter the dduration in seconds: ") )
+print(f"The duration is: {duration // 3600}, {(duration % 3600) // 60}, {((duration % 3600) % 60)}")
