@@ -1,8 +1,8 @@
 import random
 choice_user = int(input("""Welcome to the Coin Guessing Game!
 Choose a methode to toss the coin:
-      1. Using random.random()
-      2. Using random.randint()
+    1. Using random.random()
+    2. Using random.randint()
 Enter your choice (1 or 2): 
 """))
 if choice_user == 1 :
