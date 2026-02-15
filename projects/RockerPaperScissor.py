@@ -25,12 +25,12 @@ game1 = ["""
 ---.__(___)
 """]
 
-choice = input("""
+confirm = input("""
 Welcome to the Rock, Paper, Scissors game:
       Press Enter to continue or tyow (Help) for the rules help
 """).capitalize()
 
-if choice == "Help" :
+if confirm == "Help" :
     print("""
 *************** RULES ***************
 1) You choose and the computer chooses
@@ -38,7 +38,7 @@ if choice == "Help" :
 3) Scissors cut Paper -> Scissors wins
 4) Paper covers Rock -> Paper wins
 """)
-elif choice == "" :
+elif confirm == "" :
     users_choice = input("Enter your choice(rock, paper, scissors): ").capitalize()
 
     if users_choice in game :
