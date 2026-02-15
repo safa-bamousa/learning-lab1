@@ -1,7 +1,17 @@
-#Asking the user for books he wish he have:
-books_wish = []
-books_wish.append(input("Enter the name of a book you wish to have in the future: ").lower())
-confirm = input("Enter the name of another book you wish you have in the future (or press 'Enter' to skip): ").lower()
-if confirm :
-    books_wish.append(confirm)
-print(f"Your WishListe: {books_wish}")
+plants = [["🥬","🥬","🥬"],["🥬","🥬","🥬"],["🥬","🥬","🥬"] ]
+# choice = int(input(f"""
+# Welcome to place the rabbit
+# {print(plants[0])}
+# {print(plants[1])}
+# {print(plants[2])}
+# Where should the rannbit go?🐇
+# Please choose a row and a colomn: 
+# """))
+# plants[choice[0]].remove("🥬")
+# plants[choice[0]].insert(choice[1],"🐇")
+# print(f"""
+#   Success ....
+# {print(plants[0])}
+# {print(plants[1])}
+# {print(plants[2])}
+# """)
