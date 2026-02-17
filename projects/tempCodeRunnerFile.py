@@ -1,3 +1,6 @@
-        original_position = alphabet.index(letter)
-        encrypted_word += alphabet[(original_position + 2) % 26]
-        #(Index+Moves)%Total?
+import string
+
+alphabet = string.ascii_lowercase 
+alphabet1 = string.ascii_uppercase
+alphabet2 = string.ascii_letters
+print(alphabet2)
