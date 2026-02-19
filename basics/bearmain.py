@@ -1,4 +1,4 @@
 from bear import Bear
-tedy = Bear("34","Brown")
+tedy = Bear("Huge","Brown")
 print(tedy.size)
 print(tedy.color)

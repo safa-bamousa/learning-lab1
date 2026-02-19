@@ -1,6 +1,6 @@
-from turtle import Turtle, Screen
 import turtle
 import random
+from turtle import Turtle, Screen
 
 turtle.colormode(255) #allow RGB from 0 t 255
 ted = Turtle()
