@@ -11,6 +11,7 @@ class Recipe:
         print(f"Ingredients: {self.ingredients}")
         print(f"Cooking time: {self.cooking_time}")
         print(f"Cooking instructions: {self.cooking_instructions}")
+        print("_" * 20)
 
 def add_Recipe():
     name = input("Enter recipe name: ")
